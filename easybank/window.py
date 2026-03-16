@@ -344,7 +344,7 @@ class EasyBankWindow(Adw.ApplicationWindow):
         total_expenses = get_total_expenses(self.data)
 
         # Balance label
-        self.balance_label.set_text(f"{int(balance)} kr {_("kvar")}")
+        self.balance_label.set_text(f"{int(balance)} kr {_("remaining")}")
 
         # Progress bar
         self.balance_bar.set_fraction(fraction)
