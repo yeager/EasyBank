@@ -1,0 +1,72 @@
+# Swedish translations for EasyBank
+# Copyright (C) 2026
+# This file is distributed under the same license as the EasyBank package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: EasyBank 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 00:00+0000\n"
+"PO-Revision-Date: 2026-03-16 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Swedish\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: easybank/window.py
+msgid "Ny månad"
+msgstr "Ny månad"
+
+#: easybank/window.py
+msgid "Inkomst"
+msgstr "Inkomst"
+
+#: easybank/window.py
+msgid "Spara"
+msgstr "Spara"
+
+#: easybank/window.py
+msgid "Lägg till utgift"
+msgstr "Lägg till utgift"
+
+#: easybank/window.py
+msgid "Lägg till"
+msgstr "Lägg till"
+
+#: easybank/window.py
+msgid "Utgifter"
+msgstr "Utgifter"
+
+#: easybank/window.py
+msgid "kvar"
+msgstr "kvar"
+
+#: easybank/window.py
+msgid "Pengarna börjar ta slut. Var försiktig!"
+msgstr "Pengarna börjar ta slut. Var försiktig!"
+
+#: easybank/window.py
+msgid "Varning! Mycket lite pengar kvar!"
+msgstr "Varning! Mycket lite pengar kvar!"
+
+#: easybank/window.py
+msgid "Inga utgifter ännu"
+msgstr "Inga utgifter ännu"
+
+#: easybank/window.py
+msgid "Ny månad?"
+msgstr "Ny månad?"
+
+#: easybank/window.py
+msgid "Vill du ta bort alla utgifter och börja om?"
+msgstr "Vill du ta bort alla utgifter och börja om?"
+
+#: easybank/window.py
+msgid "Avbryt"
+msgstr "Avbryt"
+
+#: easybank/window.py
+msgid "Ja, börja om"
+msgstr "Ja, börja om"
