@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=EasyBank
+Name[sv]=Enkel Bank
+Comment=Simplified banking view
+Comment[sv]=Förenklad bankvy
+GenericName=Accessibility Application
+GenericName[sv]=Tillgänglighetsapp
+Exec=python3 -m easybank
+Icon=easybank
+Terminal=false
+Type=Application
+Categories=Utility;Accessibility;
+Keywords=accessibility;a11y;
+Keywords[sv]=tillgänglighet;funktionsnedsättning;
