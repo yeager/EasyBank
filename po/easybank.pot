@@ -1,73 +1,82 @@
-# EasyBank - Visual Budget App
-# Copyright (C) 2026
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the EasyBank package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: EasyBank 1.0.0\n"
+"Project-Id-Version: EasyBank 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 00:00+0000\n"
+"POT-Creation-Date: 2026-03-16 11:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: easybank/window.py
-msgid "Ny månad"
+#: easybank/window.py:81
+msgid "New Month"
 msgstr ""
 
-#: easybank/window.py
-msgid "Inkomst"
+#: easybank/window.py:165
+msgid "Income"
 msgstr ""
 
-#: easybank/window.py
-msgid "Spara"
+#: easybank/window.py:186
+msgid "Save"
 msgstr ""
 
-#: easybank/window.py
-msgid "Lägg till utgift"
+#: easybank/window.py:203
+msgid "Add Expense"
 msgstr ""
 
-#: easybank/window.py
-msgid "Lägg till"
+#: easybank/window.py:253
+msgid "Add"
 msgstr ""
 
-#: easybank/window.py
-msgid "Utgifter"
+#: easybank/window.py:270
+msgid "Expenses"
 msgstr ""
 
-#: easybank/window.py
+#: easybank/window.py:347
 msgid "kvar"
 msgstr ""
 
-#: easybank/window.py
+#: easybank/window.py:365
 msgid "Pengarna börjar ta slut. Var försiktig!"
 msgstr ""
 
-#: easybank/window.py
+#: easybank/window.py:372
 msgid "Varning! Mycket lite pengar kvar!"
 msgstr ""
 
-#: easybank/window.py
+#: easybank/window.py:378
+msgid "Inkomst"
+msgstr ""
+
+#: easybank/window.py:379
+msgid "Utgifter"
+msgstr ""
+
+#: easybank/window.py:453
 msgid "Inga utgifter ännu"
 msgstr ""
 
-#: easybank/window.py
-msgid "Ny månad?"
+#: easybank/window.py:504
+msgid "New månad?"
 msgstr ""
 
-#: easybank/window.py
+#: easybank/window.py:505
 msgid "Vill du ta bort alla utgifter och börja om?"
 msgstr ""
 
-#: easybank/window.py
-msgid "Avbryt"
+#: easybank/window.py:507
+msgid "Cancel"
 msgstr ""
 
-#: easybank/window.py
+#: easybank/window.py:508
 msgid "Ja, börja om"
 msgstr ""

@@ -1,0 +1,51 @@
+# Swedish translation
+# Copyright (C) 2024
+# This file is distributed under the same license as the package.
+#
+msgid ""
+msgstr ""
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Avbryt"
+msgstr "Cancel"
+
+msgid "Inga utgifter ännu"
+msgstr "Inga utgifter ännu"
+
+msgid "Inkomst"
+msgstr "Income"
+
+msgid "Ja, börja om"
+msgstr "Ja, börja om"
+
+msgid "Lägg till"
+msgstr "Add"
+
+msgid "Lägg till utgift"
+msgstr "Add Expense"
+
+msgid "Ny månad"
+msgstr "New Month"
+
+msgid "Ny månad?"
+msgstr "New månad?"
+
+msgid "Pengarna börjar ta slut. Var försiktig!"
+msgstr "Pengarna börjar ta slut. Var försiktig!"
+
+msgid "Spara"
+msgstr "Save"
+
+msgid "Utgifter"
+msgstr "Expenses"
+
+msgid "Varning! Mycket lite pengar kvar!"
+msgstr "Varning! Mycket lite pengar kvar!"
+
+msgid "Vill du ta bort alla utgifter och börja om?"
+msgstr "Vill du ta bort alla utgifter och börja om?"
+

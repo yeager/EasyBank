@@ -78,7 +78,7 @@ class EasyBankWindow(Adw.ApplicationWindow):
         header.set_title_widget(Gtk.Label(label="EasyBank"))
 
         # New month button
-        new_month_btn = Gtk.Button(label=_("Ny månad"))
+        new_month_btn = Gtk.Button(label=_("New Month"))
         new_month_btn.add_css_class("destructive-action")
         new_month_btn.connect("clicked", self._on_new_month)
         header.pack_end(new_month_btn)
@@ -162,7 +162,7 @@ class EasyBankWindow(Adw.ApplicationWindow):
 
         income_header = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=8)
         income_header.append(_make_icon_image("money", 40))
-        income_title = Gtk.Label(label=_("Inkomst"))
+        income_title = Gtk.Label(label=_("Income"))
         income_title.add_css_class("title-2")
         income_header.append(income_title)
         income_box.append(income_header)
@@ -183,7 +183,7 @@ class EasyBankWindow(Adw.ApplicationWindow):
         kr_label.add_css_class("title-3")
         income_input_box.append(kr_label)
 
-        save_income_btn = Gtk.Button(label=_("Spara"))
+        save_income_btn = Gtk.Button(label=_("Save"))
         save_income_btn.add_css_class("suggested-action")
         save_income_btn.set_size_request(100, 48)
         save_income_btn.connect("clicked", self._on_save_income)
@@ -200,7 +200,7 @@ class EasyBankWindow(Adw.ApplicationWindow):
         expense_frame.set_child(expense_box)
         content.append(expense_frame)
 
-        expense_title = Gtk.Label(label=_("Lägg till utgift"))
+        expense_title = Gtk.Label(label=_("Add Expense"))
         expense_title.add_css_class("title-2")
         expense_title.set_halign(Gtk.Align.START)
         expense_box.append(expense_title)
@@ -250,7 +250,7 @@ class EasyBankWindow(Adw.ApplicationWindow):
         kr_label2.add_css_class("title-3")
         amount_box.append(kr_label2)
 
-        add_btn = Gtk.Button(label=_("Lägg till"))
+        add_btn = Gtk.Button(label=_("Add"))
         add_btn.add_css_class("suggested-action")
         add_btn.set_size_request(120, 48)
         add_btn.connect("clicked", self._on_add_expense)
@@ -267,7 +267,7 @@ class EasyBankWindow(Adw.ApplicationWindow):
         breakdown_frame.set_child(self.breakdown_box)
         content.append(breakdown_frame)
 
-        breakdown_title = Gtk.Label(label=_("Utgifter"))
+        breakdown_title = Gtk.Label(label=_("Expenses"))
         breakdown_title.add_css_class("title-2")
         breakdown_title.set_halign(Gtk.Align.START)
         self.breakdown_box.append(breakdown_title)
@@ -501,10 +501,10 @@ class EasyBankWindow(Adw.ApplicationWindow):
         """Reset transactions for a new month."""
         dialog = Adw.MessageDialog(
             transient_for=self,
-            heading=_("Ny månad?"),
+            heading=_("New månad?"),
             body=_("Vill du ta bort alla utgifter och börja om?"),
         )
-        dialog.add_response("cancel", _("Avbryt"))
+        dialog.add_response("cancel", _("Cancel"))
         dialog.add_response("confirm", _("Ja, börja om"))
         dialog.set_response_appearance("confirm", Adw.ResponseAppearance.DESTRUCTIVE)
         dialog.connect("response", self._on_new_month_response)
