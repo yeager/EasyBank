@@ -362,7 +362,7 @@ class EasyBankWindow(Adw.ApplicationWindow):
             self.balance_bar.add_css_class("balance-ok")
             self._set_mood("happy")
             self._show_warning(
-                _("Pengarna börjar ta slut. Var försiktig!"),
+                _("You are running out of money. Please be careful!"),
                 critical=False,
             )
         else:
@@ -450,7 +450,7 @@ class EasyBankWindow(Adw.ApplicationWindow):
 
         expenses = get_expenses_by_category(self.data)
         if not expenses:
-            empty_label = Gtk.Label(label=_("Inga utgifter ännu"))
+            empty_label = Gtk.Label(label=_("No expenditure yet"))
             empty_label.add_css_class("dim-label")
             self.breakdown_box.append(empty_label)
             return
@@ -501,11 +501,11 @@ class EasyBankWindow(Adw.ApplicationWindow):
         """Reset transactions for a new month."""
         dialog = Adw.MessageDialog(
             transient_for=self,
-            heading=_("New månad?"),
-            body=_("Vill du ta bort alla utgifter och börja om?"),
+            heading=_("New month?"),
+            body=_("Do you want to remove all expenses and start over?"),
         )
         dialog.add_response("cancel", _("Cancel"))
-        dialog.add_response("confirm", _("Ja, börja om"))
+        dialog.add_response("confirm", _("Yes, start over"))
         dialog.set_response_appearance("confirm", Adw.ResponseAppearance.DESTRUCTIVE)
         dialog.connect("response", self._on_new_month_response)
         dialog.present()
