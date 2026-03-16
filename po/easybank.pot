@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: easybank 0.1.0\n"
+"Project-Id-Version: easybank\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 12:47+0100\n"
+"POT-Creation-Date: 2026-03-16 19:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgid "You are running out of money. Please be careful!"
 msgstr ""
 
 #: easybank/window.py:372
-msgid "Varning! Mycket lite pengar kvar!"
+msgid "Warning! Very little money left!"
 msgstr ""
 
 #: easybank/window.py:378

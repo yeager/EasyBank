@@ -344,7 +344,7 @@ class EasyBankWindow(Adw.ApplicationWindow):
         total_expenses = get_total_expenses(self.data)
 
         # Balance label
-        self.balance_label.set_text(f"{int(balance)} kr {_('kvar')}")
+        self.balance_label.set_text(f"{int(balance)} kr {_("kvar")}")
 
         # Progress bar
         self.balance_bar.set_fraction(fraction)
@@ -369,7 +369,7 @@ class EasyBankWindow(Adw.ApplicationWindow):
             self.balance_bar.add_css_class("balance-bad")
             self._set_mood("sad")
             self._show_warning(
-                _("Varning! Mycket lite pengar kvar!"),
+                _("Warning! Very little money left!"),
                 critical=True,
             )
             self._play_warning_sound()
