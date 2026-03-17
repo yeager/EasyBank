@@ -1,66 +1,56 @@
+# Translation file for EasyBank
 msgid ""
 msgstr ""
-"Project-Id-Version: easybank 0.1.0\n"
-"Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-03-16 12:00+0100\n"
-"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
-"Language-Team: Swedish\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "New Month"
+msgstr "Ny månad"
+
+msgid "Income"
+msgstr "Inkomst"
+
+msgid "Save"
+msgstr "Spara"
+
+msgid "Add Expense"
+msgstr "Lägg till utgift"
+
+msgid "Add"
+msgstr "Lägg till"
+
+msgid "Expenses"
+msgstr "Utgifter"
+
+msgid "remaining"
+msgstr "kvar"
+
 msgid "You are running out of money. Please be careful!"
-msgstr "Pengarna börjar ta slut. Var försiktig!"
+msgstr "Du börjar få slut på pengar. Var försiktig!"
+
+msgid "Warning! Very little money left!"
+msgstr "Varning! Mycket lite pengar kvar!"
+
+msgid "Inkomst"
+msgstr "Inkomst"
+
+msgid "Utgifter"
+msgstr "Utgifter"
 
 msgid "No expenditure yet"
 msgstr "Inga utgifter ännu"
 
 msgid "New month?"
-msgstr "New månad?"
+msgstr "Ny månad?"
 
 msgid "Do you want to remove all expenses and start over?"
-msgstr "Vill du ta bort alla utgifter och börja om?"
+msgstr "Vill du ta bort alla utgifter och börja om från början?"
+
+msgid "Cancel"
+msgstr "Avbryt"
 
 msgid "Yes, start over"
 msgstr "Ja, börja om"
-
-msgid "Avbryt"
-msgstr "Cancel"
-
-msgid "Inga utgifter ännu"
-msgstr "Inga utgifter ännu"
-
-msgid "Inkomst"
-msgstr "Income"
-
-msgid "Ja, börja om"
-msgstr "Ja, börja om"
-
-msgid "Lägg till"
-msgstr "Add"
-
-msgid "Lägg till utgift"
-msgstr "Add Expense"
-
-msgid "Ny månad"
-msgstr "New Month"
-
-msgid "Ny månad?"
-msgstr "New månad?"
-
-msgid "Pengarna börjar ta slut. Var försiktig!"
-msgstr "Pengarna börjar ta slut. Var försiktig!"
-
-msgid "Spara"
-msgstr "Save"
-
-msgid "Utgifter"
-msgstr "Expenses"
-
-msgid "Varning! Mycket lite pengar kvar!"
-msgstr "Varning! Mycket lite pengar kvar!"
-
-msgid "Vill du ta bort alla utgifter och börja om?"
-msgstr "Vill du ta bort alla utgifter och börja om?"
 
